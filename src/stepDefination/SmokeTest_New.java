@@ -1,5 +1,4 @@
 package stepDefination;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -36,7 +35,7 @@ public class SmokeTest_New {
 	public void user_should_login_successfully() throws Throwable{
 		
 		driver.findElement(By.id("loginbutton")).click();
-		
+		system.out.println("Sucessfull Login")
 	    	}
 
 
